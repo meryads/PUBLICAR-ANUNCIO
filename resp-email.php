@@ -1,5 +1,5 @@
 ﻿<?php
-    $recipient_email = "meryads20.anuncio@blogger.com, meryads20@gmail.com"; //recepient
+    $recipient_email = "meryads20.anuncio@blogger.com"; //recepient
     $from_email      = filter_var($_POST["email"], FILTER_SANITIZE_STRING); //from email using site domain.
     $subject         = filter_var($_POST["subject"], FILTER_SANITIZE_STRING); //email subject line
     
